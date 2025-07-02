@@ -9,20 +9,20 @@ public class Main {
     public static void main(String [] vararg) throws Exception {
 
         ImageConverter imageConverter = new ImageConverter();
-        imageConverter.setHeight(5);
-        imageConverter.setWidth(7);
+        imageConverter.setHeight(500);
+        imageConverter.setWidth(500);
 
         String [] paths = {
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/cero-35.png",
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/uno-35.png",
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/dos-35.png",
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/tres-35.png",
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/cuatro-35.png",
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/cinco-35.png",
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/seis-35.png",
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/siete-35.png",
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/ocho-35.png",
-                "/Users/mya/workspaceSB/neural-networkin/src/main/resources/recognition-images/nueve-35.png"
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/cero.png",
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/uno.png",
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/dos.png",
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/tres.png",
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/cuatro.png",
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/cinco.png",
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/seis.png",
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/siete.png",
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/ocho.png",
+                "/Users/mya/workspaceSB/neural-networking/src/main/resources/recognition-images/nueve.png"
         };
 
         double [][] inputs = new double [paths.length][];
